@@ -12,3 +12,5 @@ This sample shows how to use Bicep to create the following:
 After you deploy the sample, you can verify the Key Vault reference works by opening the Azure portal, navigating to the function app, and selecting the **Configuration** page. The **SampleKeyVaultSecret** configuration should be listed with a green checkmark:
 
 ![Screenshot of the Azure portal that shows a Key Vault reference setting for the function app.](images/key-vault-reference.png)
+
+A sample function that shows how to use the Key Vault reference is in the **deploy/function/function.csx** file. The function is not deployed and is just provided for reference..
